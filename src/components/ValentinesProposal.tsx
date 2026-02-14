@@ -86,19 +86,19 @@ export default function ValentinesProposal() {
           <motion.h2
             key="step-0"
             className={`text-2xl font-semibold mb-4 ${playfairDisplay.className}`}
-            transition={{ duration: 4 }}
+            transition={{ duration: 6 }}
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
           >
-            Congrats! I might not be able to give you flowers, but I will give you something I believe is even more valuable, the memories we’ve made together so far!
+            Congrats! I might not be able to give you flowers, but I gave you something is even more valuable, the memories we’ve made together so far!
           </motion.h2>
         )}
         {step === 1 && (
           <motion.h2
             key="step-1"
             className={`text-4xl font-semibold mb-4 ${playfairDisplay.className}`}
-            transition={{ duration: 3 }}
+            transition={{ duration: 4 }}
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
